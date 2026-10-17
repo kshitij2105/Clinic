@@ -18,29 +18,38 @@ export default function Home() {
     setBookingOpen(true);
   };
 
-  const treatmentCategories = [
-    {
-      title: "Proctology & General Surgery",
-      desc: "Specialized care for delicate conditions with advanced laser and stapler techniques ensuring minimal pain.",
-      items: ["Piles (Hemorrhoids)", "Fissure & Fistula", "Abscess & Lumps", "Hernia & Appendix", "Hydrocele"]
-    },
-    {
-      title: "Breast & General Care",
-      desc: "Comprehensive diagnostic and surgical interventions for breast diseases, benign lumps, and soft tissue concerns.",
-      items: ["Breast Diseases & Lumps", "Skin Tags Removal", "Laser Mole Removal", "General Surgical Care"]
-    },
-    {
+
+const treatmentCategories = [
+  {
     title: "Proctology & Rectal Specialisation",
-    desc: "Advanced laser and minimally invasive treatments for painful rectal conditions with same-day discharge options.",
+    desc: "Advanced laser and minimally invasive treatments for rectal and anal conditions, with recovery options tailored to each patient.",
     items: [
       "Piles (Hemorrhoids)",
-      "Fissure",
-      "Fistula",
-      "Abscess"
+      "Anal Fissure",
+      "Anal Fistula",
+      "Perianal Abscess"
+    ]
+  },
+  {
+    title: "General & Soft Tissue Surgery",
+    desc: "Surgical evaluation and treatment for abdominal conditions, hernias, fluid collections, and benign soft tissue growths.",
+    items: [
+      "Hernia Surgery",
+      "Appendix Surgery",
+      "Hydrocele Treatment",
+      "Lumps & Lipomas"
+    ]
+  },
+  {
+    title: "Breast Care & Laser Aesthetics",
+    desc: "Comprehensive breast health assessment and selected laser procedures for benign skin concerns.",
+    items: [
+      "Breast Diseases & Lumps",
+      "Skin Tag Removal",
+      "Mole Removal"
     ]
   }
-    
-  ];
+];
 
   const testimonials = [
     {

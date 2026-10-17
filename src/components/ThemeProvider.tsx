@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ThemeContext, type ThemeMode } from './theme-context';
-const THEME_STORAGE_KEY = 'clinic-theme';
+const THEME_STORAGE_KEY = 'clinic-theme-v2';
 
 const getInitialTheme = (): ThemeMode => {
   try {
@@ -10,7 +10,7 @@ const getInitialTheme = (): ThemeMode => {
     // Storage may be unavailable in restricted browsing contexts.
   }
 
-  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  return 'light';
 };
 
 export const ThemeProvider: React.FC<React.PropsWithChildren> = ({ children }) => {

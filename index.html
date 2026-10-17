@@ -8,10 +8,10 @@
       (() => {
         let theme;
         try {
-          theme = localStorage.getItem('clinic-theme');
+          theme = localStorage.getItem('clinic-theme-v2');
         } catch {}
         if (theme !== 'light' && theme !== 'dark') {
-          theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          theme = 'light';
         }
         document.documentElement.classList.toggle('dark', theme === 'dark');
         document.documentElement.style.colorScheme = theme;

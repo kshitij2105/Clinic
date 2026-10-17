@@ -122,6 +122,7 @@ const NotFound: React.FC = () => {
         >
           Back to homepage
         </a>
+      </div>
 
         {/* Footer */}
         

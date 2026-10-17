@@ -311,14 +311,14 @@ export default function Home() {
                   <div>
                     <h5 className="font-semibold text-sm text-white">Clinic Address</h5>
                     <a
-  href="https://www.google.com/maps/search/?api=1&query=Health+Corner+Clinic%2C+Sector+9%2C+Airoli%2C+Navi+Mumbai+400701"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="hover:underline hover:text-emerald-700 transition-colors"
-  aria-label="Find Health Corner Clinic on Google Maps"
->
-  Health Corner Clinic, Sec 9, Airoli, Navi Mumbai - 400701
-</a> 
+                      href="https://www.google.com/maps/search/?api=1&query=Health+Corner+Clinic%2C+Sector+9%2C+Airoli%2C+Navi+Mumbai+400701"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline hover:text-emerald-700 transition-colors"
+                      aria-label="Find Health Corner Clinic on Google Maps"
+                    >
+                      Health Corner Clinic, Sec 9, Airoli, Navi Mumbai - 400701
+                    </a>
                   </div>
                 </div>
 

@@ -43,14 +43,7 @@ export default function Treatments() {
         { name: "Moles Removal", desc: "Precise cosmetic laser mole removal with optimal aesthetic results." }
       ]
     },
-    {
-      category: "General & Cosmetic Dentistry",
-      desc: "Professional surgical and general dental care for complete oral wellness.",
-      items: [
-        { name: "General & Surgical Dentistry", desc: "Extractions, root canals, and routine restorative treatments." },
-        { name: "Cosmetic Dentistry", desc: "Smile makeovers, teeth whitening, and advanced aesthetic enhancements." }
-      ]
-    }
+    
   ];
 
   return (

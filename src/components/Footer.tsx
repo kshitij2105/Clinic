@@ -82,14 +82,44 @@ export const Footer: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-        <p>© 2026 Dr. Shraddha Wanje Clinic. All rights reserved.</p>
-        <div className="flex items-center gap-6">
-          <span className="hover:text-slate-400 cursor-pointer">Privacy Policy</span>
-          <span className="hover:text-slate-400 cursor-pointer">Terms of Service</span>
-          <span className="flex items-center gap-1 text-slate-400">
-            Made with <Heart className="w-3 h-3 text-emerald-500 fill-emerald-500" /> for patient care
-          </span>
-        </div>
+      
+<p>© 2026 Dr. Shraddha Wanje Clinic. All rights reserved.</p>
+
+<div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+  <Link
+    to="/privacy-policy"
+    className="hover:text-slate-400 transition-colors"
+  >
+    Privacy Policy
+  </Link>
+
+  <Link
+    to="/terms"
+    className="hover:text-slate-400 transition-colors"
+  >
+    Terms of Service
+  </Link>
+
+  <span className="flex items-center gap-1 text-slate-400">
+    Made with
+    <Heart className="w-3 h-3 text-emerald-500 fill-emerald-500" />
+    for patient care
+  </span>
+
+  <span className="text-slate-500">
+    Website by{" "}
+    <a
+      href=""
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-slate-400 hover:text-emerald-400 transition-colors underline underline-offset-4"
+    >
+      Kshitij Bhalerao
+    </a>
+  </span>
+</div>
+
+
       </div>
     </footer>
   );

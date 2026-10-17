@@ -58,7 +58,7 @@ export default function Treatments() {
           </div>
           <h1 className="font-serif text-4xl sm:text-5xl font-bold text-slate-900">Treatments & Services</h1>
           <p className="text-slate-600 text-base sm:text-lg">
-            Explore our comprehensive range of proctological, general surgical, and dental care options performed with state-of-the-art laser technology and minimal pain.
+            Explore our comprehensive range of proctological and general surgical procedures performed with state-of-the-art laser technology and minimal pain.
           </p>
         </div>
       </section>

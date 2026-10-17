@@ -29,11 +29,7 @@ export default function Home() {
       desc: "Comprehensive diagnostic and surgical interventions for breast diseases, benign lumps, and soft tissue concerns.",
       items: ["Breast Diseases & Lumps", "Skin Tags Removal", "Laser Mole Removal", "General Surgical Care"]
     },
-    {
-      title: "Dental & Surgical Services",
-      desc: "Advanced general, surgical, and cosmetic dentistry procedures performed with absolute precision.",
-      items: ["General & Surgical Dentistry", "Cosmetic Dentistry Solutions", "Root Canal & Extractions", "Smile Makeovers"]
-    }
+    
   ];
 
   const testimonials = [

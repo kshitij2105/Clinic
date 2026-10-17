@@ -29,6 +29,16 @@ export default function Home() {
       desc: "Comprehensive diagnostic and surgical interventions for breast diseases, benign lumps, and soft tissue concerns.",
       items: ["Breast Diseases & Lumps", "Skin Tags Removal", "Laser Mole Removal", "General Surgical Care"]
     },
+    {
+    title: "Proctology & Rectal Specialisation",
+    desc: "Advanced laser and minimally invasive treatments for painful rectal conditions with same-day discharge options.",
+    items: [
+      "Piles (Hemorrhoids)",
+      "Fissure",
+      "Fistula",
+      "Abscess"
+    ]
+  }
     
   ];
 
